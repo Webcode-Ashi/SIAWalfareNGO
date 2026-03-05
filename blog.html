@@ -5,77 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <style>
-      body{
-      overflow-x: hidden;
-    }
-    .btn-custom:hover {
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+         .btn-custom:hover {
       background-color: red;
       color: white;
     }
     .hero-section {
-      height: 100vh;
-      background: url('./assest/donation.avif') center/cover no-repeat;
+      height: 180vh;
+      background: url('./assest/blue.avif') center/cover no-repeat;
     }
-
-    .box {
-      max-width: 500px;
-      
-    }
-
-    .imges {
-      width: 180px;
-      height: 180px;
-      overflow: hidden;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: rgb(114, 226, 200);
-      border-radius: 50%;
-    }
-
-    .imges img {
-      width: 100%;
-      height: 100%;
-    }
-     .donation-card {
-      border: none;
-      border-radius: 15px;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-      transition: 0.3s;
-    }
-    .donation-card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 15px 30px rgba(0,0,0,0.15);
-    }
-    .donation-header {
-      background: linear-gradient(135deg, #28a745, #20c997);
-      color: white;
-      border-radius: 15px 15px 0 0;
-      padding: 20px;
-      text-align: center;
-    }
-    .amount-btn button {
-      margin: 5px;
-      border-radius: 50px;
-    }
-    .donate-btn {
-      background: #28a745;
-      border: none;
-      border-radius: 50px;
-      padding: 10px;
-      font-weight: bold;
-    }
-    .donate-btn:hover {
-      background: #218838;
-    }
-     .box1{
+        .box1{
   background-color: #edf4fa;
 }
 .box2{
-  margin-top: 30px;
   padding: 20px 0;
 }
 .box1 h1{
@@ -94,7 +38,7 @@
 .box1 hr{
   border-color: #6f6f6f;
 }
-  </style>
+    </style>
 </head>
 <body>
     <div class="container-fluid p-0 m-0">
@@ -105,7 +49,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-5 column-gap-lg-5 fw-bold">
           <li class="nav-item">
-            <a class="nav-link activep" aria-current="page" href="bootstrap2.html">Home</a>
+            <a class="nav-link activep" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link activep bg-primary text-white rounded-3" href="donatenow.html">💰Donate NOW</a>
@@ -131,63 +75,74 @@
       </div>
 
     </nav>
-<!--hero section start-->
-    <div class="hero-section">
-      <div class="d-flex flex-column justify-content-center align-items-center h-75 text-white p-5 text-center rounded-4 shadow-lg text-black box">
-          <div class="container py-5">
-  <div class="row justify-content-center">
-    
-    <div class="col-sm-12">
-      <div class="card donation-card">
-        <div class="donation-header">
-          <h3>💖 Donate Now</h3>
-          <p>Support our mission to help those in need</p>
-        </div>
-        <div class="card-body text-center">
-          <div class="amount-btn mb-3">
-            <button class="btn btn-outline-success">₹100</button>
-            <button class="btn btn-outline-success">₹500</button>
-            <button class="btn btn-outline-success">₹1000</button>
-            <button class="btn btn-outline-success">₹2000</button>
-          </div>
-          <div class="mb-3">
-            <input type="number" class="form-control" placeholder="Enter custom amount">
-          </div>
-          <div class="mb-3">
-            <input type="text" class="form-control" placeholder="Your Name">
-          </div>
-          <div class="mb-3">
-            <input type="email" class="form-control" placeholder="Your Email">
-          </div>
-          <button class="btn donate-btn w-100 text-white">
-            Donate Now
-          </button>
-
-          <p class="mt-3 text-muted small">
-            🔒 100% secure donation
-          </p>
-
-        </div>
-
-      </div>
-    </div>
-
+    <!--hero start-->
+    <div class="hero-section ">
+       <div class="container py-5">
+        <div class="row ">
+        <div class="col-sm-6"><div class="card mb-3 bg-secondary-subtle p-3 rounded-4 shadow-lg rounded-5">
+  <img src="./assest/change3.avif" class="card-img-top rounded-5" alt="...">
+  <div class="card-body">
+    <h5 class="card-title fs-2 text-center">“Stories of Change & Impact”</h5>
   </div>
 </div>
-
-        </div>
+<div class="card bg-secondary-subtle p-3 rounded-4 shadow-lg rounded-5">
+  
+  <img src="./assest/f.avif" class="card-img-bottom rounded-5" alt="...">
+</div></div>
+        <div class="col-sm-6"><div class="card text-bg-dark rounded-5">
+  <img src="./assest/community.avif" class="card-img rounded-5" alt="...">
+  <div class="card-img-overlay align-content-end">
+    <h5 class="card-title fs-2 text-black bg-secondary-subtle">From Hope to Happiness</h5>
+    <p class="card-text bg-secondary-subtle text-danger fw-bold">At SIA Welfare, every small effort creates meaningful change. Through food drives, education support, and women empowerment initiatives, we are transforming lives and spreading hope. These stories reflect our commitment to building a better future, where compassion leads to real impact and every individual gets the opportunity to grow and thrive.</p>
+    <p class="card-text bg-secondary-subtle text-black fw-bold"><small>Last updated 3 mins ago</small></p>
+  </div>
+</div></div>
+       </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="card mb-3 mx-1" style="max-width: 640px;">
+  <div class="row g-0">
+    <div class="col-md-4 ">
+      <img src="./assest/chang.avif" class="img-fluid rounded-start py-4" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Food Donation</h5>
+        <p class="card-text">Our food donation drives aim to ensure that no one sleeps hungry. Through community support and dedicated volunteers, Every contribution helps us spread hope, fight hunger, and bring smiles to those who need care, compassion, and nourishment the most.</p>
       </div>
     </div>
-    <!--hero section end-->
+  </div>
+</div>
+<div class="card mb-3 mx-3" style="max-width: 640px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="./assest/miss.avif" class="img-fluid rounded-start py-4" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Education for All</h5>
+        <p class="card-text ">Education is the foundation of a brighter future. Through our “Education for All” initiative, SIA Welfare provides We believe every child deserves equal opportunities to learn, grow, and achieve their dreams, regardless of their background or financial condition.</p>
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+    </div>
+    </div>
+<!--hero end-->
+<!--main content start-->
+
+<!--main content end-->
+
+
 
     </div>
 
-
-
-
-    <!--footer start-->
-    <div class="container-fluid box1" >
-       <div class="container my-5 box2 d-flex align-content-center justify-content-between">
+    <footer>
+       <!--footer start-->
+    <div class="container-fluid box1">
+       <div class="container box2 d-flex align-content-center justify-content-between">
         <div class="row ">
           <div class="col-sm-3">
             <h1 class="fs-4 text-danger my-3">SOCIAL FEED</h1>
@@ -275,11 +230,13 @@
       </div>
       </div>
       <!--footer end-->
+
+    </footer>
+    
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-<script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
   AOS.init();
 </script>
-</body>
 </body>
 </html>
